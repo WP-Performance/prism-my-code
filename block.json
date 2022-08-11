@@ -1,0 +1,14 @@
+{
+  "apiVersion": 2,
+  "name": "wp-performance/prism-my-code",
+  "title": "Prism My Code",
+  "category": "widgets",
+  "icon": "media-code",
+  "description": "Block code with Prism highlighting",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "prism-my-code",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css"
+}
