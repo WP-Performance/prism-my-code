@@ -86,6 +86,8 @@ add_action(
   'admin_print_styles',
   function () use ($PLUGIN_NAME, $PLUGIN_PATH, $VERSION) {
     $path = plugins_url() . '/' . $PLUGIN_PATH;
+    wp_enqueue_script($PLUGIN_PATH . '-vendor', $path . '/assets/prism.js', array(), $VERSION, true);
+    wp_enqueue_script($PLUGIN_PATH, $path . '/assets/scripts.js', array(), $VERSION, true);
     // default style
     wp_enqueue_style($PLUGIN_PATH, $path . '/assets/styles.css', array(), $VERSION);
     // theme

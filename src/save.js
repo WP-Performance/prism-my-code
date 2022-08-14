@@ -9,7 +9,7 @@ const Save = (props) => {
       <pre
         className={`prism-my-code-block language-${language} ${
           showNumber ? 'line-numbers' : ''
-        }`}
+        } language-diff-${language} diff-highlight`}
         data-line={lineHighlight}
       >
         <RichText.Content tagName="code" value={content} />

@@ -13,7 +13,7 @@ const Panel = ({ props }) => {
   const { language, showNumber, lineHighlight, theme } = attributes
   return (
     <InspectorControls>
-      <PanelBody title={__('Settings', 'prism-my-code')}>
+      <PanelBody title={__('Lines numbers', 'prism-my-code')}>
         <ToggleControl
           label={__('show number lines', 'prism-my-code')}
           checked={showNumber}
@@ -28,6 +28,8 @@ const Panel = ({ props }) => {
           )}
           onChange={(lineHighlight) => setAttributes({ lineHighlight })}
         />
+      </PanelBody>
+      <PanelBody title={__('Language', 'prism-my-code')}>
         <SelectControl
           label={__('Language', 'prism-my-code')}
           value={language}
