@@ -1,11 +1,11 @@
-## Code Block with Prism Highlight
+## Code Block with Prism JS Highlight
 
-Gutenberg block for Highlight code example.
+Gutenberg block for code Highlighting.
 
 ## Features
 
-- Choose a theme in settings plugin.
-- show or hide numbers lines
+- Choose a theme in settings of plugin.
+- show or hide the numbers of lines
 - Highlight lines
 - Choose a language :
   - markup
@@ -58,3 +58,5 @@ Gutenberg block for Highlight code example.
 ## Screenshot
 
 ![https://github.com/WP-Performance/prism-my-code/blob/main/prism-my-code.png](https://github.com/WP-Performance/prism-my-code/blob/main/prism-my-code.png)
+![https://github.com/WP-Performance/prism-my-code/blob/main/prism-my-code-front.png](https://github.com/WP-Performance/prism-my-code/blob/main/prism-my-code-front.png)
+![https://github.com/WP-Performance/prism-my-code/blob/main/prism-my-code-settings.png](https://github.com/WP-Performance/prism-my-code/blob/main/prism-my-code-settings.png)
